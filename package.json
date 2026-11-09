@@ -1,0 +1,16 @@
+{
+  "name": "coroa-de-cinzas",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Coroa de Cinzas — jogo de cartas pós-apocalíptico para o navegador",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 5173",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 5173",
+    "test": "node --test src/scoring.test.js"
+  },
+  "devDependencies": {
+    "vite": "^5.4.21"
+  }
+}
