@@ -1,30 +1,30 @@
 @font-face {
   font-family: 'Oswald';
-  src: url('/Oswald.ttf') format('truetype');
+  src: url('./assets/fonts/Oswald.ttf') format('truetype');
   font-weight: 200 700;
   font-display: swap;
 }
 @font-face {
   font-family: 'Barlow';
-  src: url('/Barlow-Regular.ttf') format('truetype');
+  src: url('./assets/fonts/Barlow-Regular.ttf') format('truetype');
   font-weight: 400;
   font-display: swap;
 }
 @font-face {
   font-family: 'Barlow';
-  src: url('/Barlow-SemiBold.ttf') format('truetype');
+  src: url('./assets/fonts/Barlow-SemiBold.ttf') format('truetype');
   font-weight: 600;
   font-display: swap;
 }
 @font-face {
   font-family: 'Special Elite';
-  src: url('/SpecialElite.ttf') format('truetype');
+  src: url('./assets/fonts/SpecialElite.ttf') format('truetype');
   font-weight: 400;
   font-display: swap;
 }
 @font-face {
   font-family: 'Cinzel';
-  src: url('/Cinzel.ttf') format('truetype');
+  src: url('./assets/fonts/Cinzel.ttf') format('truetype');
   font-weight: 400 900;
   font-display: swap;
 }
@@ -131,7 +131,7 @@ button, .card { font-family: inherit; }
 .menu {
   background:
     linear-gradient(180deg, rgba(11,9,7,.55) 0%, rgba(11,9,7,.82) 55%, #0b0907 100%),
-    url('/menu-hero.jpg') center 30% / cover no-repeat;
+    url('./assets/img/menu-hero.jpg') center 30% / cover no-repeat;
 }
 .menu-top {
   display: flex;
@@ -195,7 +195,7 @@ button, .card { font-family: inherit; }
   grid-template-rows: auto auto 1fr auto auto;
   background:
     linear-gradient(180deg, rgba(8,6,5,.72), rgba(8,6,5,.88)),
-    url('/bg-wasteland.jpg') center / cover no-repeat;
+    url('./assets/img/bg-wasteland.jpg') center / cover no-repeat;
 }
 .hud {
   display: flex;
@@ -382,7 +382,7 @@ button, .card { font-family: inherit; }
   width: 104px;
   height: 146px;
   border-radius: 9px;
-  background: #1a120c url('/card-back.jpg') center / cover no-repeat;
+  background: #1a120c url('./assets/img/card-back.jpg') center / cover no-repeat;
   border: 1px solid #5c4630;
   box-shadow: var(--shadow);
   position: relative;

@@ -1,10 +1,16 @@
 # Coroa de Cinzas
 
+### ▶️ Jogue agora: **https://jushirambo.github.io/coroa-de-cinzas/**
+
 Jogo de cartas pós-apocalíptico para o navegador. Cada jogador segura **sete cartas** e tenta montar a lenda mais cara — senhores da ferrugem, hordas da estrada, xamãs do reator, marés negras e um trono que já esfriou.
 
 > Trabalho original. A estrutura (mão de sete, compra do baralho ou do descarte, pontuação por combos) é uma mecânica clássica de card games. Nomes, naipes, textos, arte e tema são novos. **Não é Fantasy Realms**, não usa cartas da WizKids e não é um produto afiliado.
 
 ## Jogar
+
+**Online:** https://jushirambo.github.io/coroa-de-cinzas/ (GitHub Pages)
+
+**Local:**
 
 ```bash
 npm install
@@ -13,7 +19,7 @@ npm run dev
 
 Abra o endereço que o Vite imprimir (por padrão `http://localhost:5173`).
 
-Build estático:
+Build estático (também gera a pasta `docs/` publicada no GitHub Pages):
 
 ```bash
 npm run build
